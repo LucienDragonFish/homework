@@ -1,0 +1,12 @@
+%pylab inline
+def square():
+  a=int(input('a=?'))
+  b=int(input('b=?'))
+  y=0
+  for i in range(a,b+1):
+    if sqrt(i)%1==0:
+      y=y+i
+  print(y)
+z=int(input('How many times do you want to play?'))
+for i in range(z):
+  square()
