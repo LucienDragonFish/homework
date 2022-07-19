@@ -1,7 +1,7 @@
 %pylab inline
 def square():
-  a=int(input('a=?'))
-  b=int(input('b=?'))
+  a=int(input('下限為?'))
+  b=int(input('上限為?'))
   y=0
   for i in range(a,b+1):
     if sqrt(i)%1==0:
